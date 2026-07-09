@@ -1080,6 +1080,8 @@ ABOUT PAGE
 
     padding:170px 0 110px;
 
+    text-align:center;
+
 }
 
 .page-tag{
@@ -1108,15 +1110,16 @@ ABOUT PAGE
 
     color:var(--green-dark);
 
-    max-width:900px;
+    max-width:1500px;
 
-    margin-bottom:35px;
+    margin:20px auto 35px;
 
 }
-
 .hero-lead{
 
-    max-width:760px;
+    max-width:1500px;
+
+    margin:0 auto;
 
     font-size:1.18rem;
 
@@ -1307,12 +1310,6 @@ VIRTUE PRINCIPLES
 
 }
 
-.image-caption{
-
-    margin-top:22px;
-
-}
-
 .image-caption h4{
 
     color:var(--green-dark);
@@ -1323,7 +1320,9 @@ VIRTUE PRINCIPLES
 
     font-weight:700;
 
-    .project-location{
+}
+
+.project-location{
 
     color:var(--green);
 
@@ -1334,8 +1333,6 @@ VIRTUE PRINCIPLES
     font-size:.95rem;
 
     letter-spacing:.3px;
-
-}
 
 }
 
@@ -1381,7 +1378,7 @@ EXPERIENCE
 .experience-left h2{
 
     font-size:3rem;
-
+    
     line-height:1.12;
 
     color:var(--green-dark);
@@ -1393,12 +1390,12 @@ EXPERIENCE
 .experience-right p{
 
     font-size:1.08rem;
-
+    
     line-height:1.95;
 
     color:var(--text);
 
-    margin-bottom:32px;
+    margin-bottom:28px;
 
 }
 /*====================================================
@@ -1415,7 +1412,7 @@ ABOUT CTA
 
     text-align:center;
 
-    padding:120px 0;
+    padding:40px 0;
 
 }
 
@@ -1448,60 +1445,91 @@ ABOUT CTA
     color:rgba(255,255,255,.7);
 
 }
-/*======================================
-HOW WE HELP - HERO
-======================================*/
 
-.help-hero{
-    padding:180px 0 100px;
-}
-
-.help-hero .container{
-    max-width:900px;
-}
-
-.help-hero h1{
-    margin:20px 0 30px;
-    font-size:4rem;
-    line-height:1.05;
-    color:#173d33;
-}
-
-.help-hero .hero-intro{
-    max-width:720px;
-    font-size:1.15rem;
-    line-height:1.9;
-    color:#5c6466;
-}
 /*====================================================
 
-HOW WE HELP - CHAPTER ONE
+SERVICES PAGE
 
 ====================================================*/
 
+/*------------------------------------
+Hero
+------------------------------------*/
+
+.help-hero{
+
+    padding:190px 0 60px;
+
+    background:#ffffff;
+
+}
+
+.help-hero h1{
+
+    max-width:1800px;
+
+    margin:20px 0 30px;
+
+     text-align:center;
+
+    font-size:4rem;
+
+    line-height:1.15;
+
+    color:var(--green-dark);
+
+}
+
+.hero-intro{
+
+    max-width:760px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+    font-size:1.15rem;
+
+    line-height:1.9;
+
+}
+
+/*------------------------------------
+Chapter
+------------------------------------*/
+
 .service-chapter{
 
-    padding:10px 0;
+    padding:50px 0;
+
+}
+
+.chapter-one{
 
     background:#f7f8f7;
 
 }
 
-/*------------------------------------
-Chapter Heading
-------------------------------------*/
+.chapter-two{
+
+    background:#ffffff;
+
+}
+
+.chapter-three{
+
+    background:#f7f8f7;
+
+}
 
 .chapter-heading{
 
-    max-width:900px;
-
-    margin-bottom:50px;
+    margin-bottom:60px;
 
 }
 
 .chapter-heading h2{
 
-    
     font-size:3rem;
 
     color:var(--green-dark);
@@ -1512,17 +1540,13 @@ Chapter Heading
 
 .chapter-intro{
 
-    width:100%;
-
-    max-width:1000;
-
-    display:block;
+    max-width:1800px;
 
     font-size:1.15rem;
 
     line-height:1.9;
 
-   }
+}
 
 /*------------------------------------
 Overview
@@ -1530,7 +1554,7 @@ Overview
 
 .chapter-overview{
 
-    max-width:1500px;
+    max-width:1800px;
 
     margin-bottom:90px;
 
@@ -1546,14 +1570,14 @@ Overview
 
 .chapter-overview p{
 
-    line-height:1.9;
-
     margin-bottom:24px;
+
+    line-height:1.9;
 
 }
 
 /*------------------------------------
-Interactive Section
+Interactive Layout
 ------------------------------------*/
 
 .support-section{
@@ -1562,7 +1586,7 @@ Interactive Section
 
     grid-template-columns:42% 58%;
 
-    gap:60px;
+    gap:70px;
 
     align-items:start;
 
@@ -1584,23 +1608,23 @@ Interactive Section
 
     gap:16px;
 
-    max-width:420px;
+    max-width:450px;
 
 }
 
 .support-item{
 
-    padding:18px 22px;
-
     background:#fff;
 
-    border:1px solid #e4e7e6;
+    border:1px solid #e3e5e5;
 
     border-radius:14px;
 
-    cursor:pointer;
+    padding:18px 22px;
 
     font-weight:600;
+
+    cursor:pointer;
 
     transition:.3s;
 
@@ -1608,11 +1632,11 @@ Interactive Section
 
 .support-item:hover{
 
+    transform:translateX(6px);
+
     background:var(--green);
 
     color:#fff;
-
-    transform:translateX(6px);
 
 }
 
@@ -1623,7 +1647,6 @@ Interactive Section
     color:#fff;
 
 }
-
 /*------------------------------------
 Support Panel
 ------------------------------------*/
@@ -1634,17 +1657,25 @@ Support Panel
 
     top:120px;
 
-    min-height:260px;
+    min-height:520px;
 
-    background:#fff;
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-start;
+
+    background:#ffffff;
 
     border-radius:22px;
 
     padding:40px;
 
-    box-shadow:0 18px 40px rgba(0,0,0,.08);
+    border:1px solid #e6e9e8;
 
-    transition:.25s ease;
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
+
+    transition:opacity .25s ease;
 
 }
 
@@ -1658,17 +1689,23 @@ Support Panel
 
     display:inline-block;
 
-    padding:8px 14px;
+    align-self:flex-start;
+
+    padding:8px 16px;
+
+    border-radius:999px;
 
     background:#eef5f2;
 
     color:var(--green);
 
-    border-radius:999px;
+    font-size:.85rem;
 
     font-weight:700;
 
-    margin-bottom:25px;
+    letter-spacing:.05em;
+
+    margin-bottom:12px;
 
 }
 
@@ -1676,7 +1713,7 @@ Support Panel
 
     color:var(--green-dark);
 
-    font-size:1.5rem;
+    font-size:2rem;
 
     margin-bottom:20px;
 
@@ -1684,7 +1721,7 @@ Support Panel
 
 .support-panel p{
 
-    line-height:1.2;
+    line-height:1.4;
 
     margin-bottom:20px;
 
@@ -1694,15 +1731,15 @@ Support Panel
 
     padding-left:20px;
 
-    margin-bottom:20px;
+    margin-bottom:30px;
 
 }
 
 .support-panel li{
 
-    margin-bottom:10px;
+    margin-bottom:12px;
 
-    line-height:1;
+    line-height:1.2;
 
 }
 
@@ -1710,12 +1747,123 @@ Support Panel
 
     margin-top:auto;
 
-    padding-top:25px;
+    padding-top:24px;
 
     border-top:1px solid #ececec;
 
+    font-weight:600;
+
     color:var(--green-dark);
 
-    font-weight:600;
+}
+
+/*------------------------------------
+CTA
+------------------------------------*/
+
+.services-cta{
+
+    padding:50px 0;
+
+    background:#ffffff;
+
+}
+
+.cta-card{
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.cta-card h2{
+
+    font-size:3rem;
+
+    color:var(--green-dark);
+
+    margin:20px 0;
+
+}
+
+.cta-card p{
+
+    max-width:760px;
+
+    margin:0 auto 40px;
+
+    line-height:1.9;
+
+}
+
+.support-panel .btn{
+
+    display:block;
+
+    width:220px;
+
+    margin:30px auto 0;
+
+}
+/*------------------------------------
+Responsive
+------------------------------------*/
+
+@media (max-width:900px){
+
+    .help-hero h1{
+
+        font-size:3rem;
+
+    }
+
+    .chapter-heading h2{
+
+        font-size:2.4rem;
+
+    }
+
+    .support-section{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .support-list{
+
+        max-width:100%;
+
+    }
+
+    .support-panel{
+
+        position:relative;
+
+        top:auto;
+
+        min-height:auto;
+
+    }
+
+    .cta-card{
+
+        padding:45px 30px;
+
+    }
+
+    .cta-card h2{
+
+        font-size:2.3rem;
+
+    }
 
 }
