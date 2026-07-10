@@ -44,3 +44,11 @@ Version 0.3
 
 From Compliance to Confidence.
 
+---
+
+Created by:
+
+Dirk
+&
+ChatGPT
+(Project Lotus Creative Studio)
