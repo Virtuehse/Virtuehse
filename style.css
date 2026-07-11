@@ -484,111 +484,60 @@ CHAPTER SPACING
 CHAPTER TWO
 
 ====================================================*/
-
 .chapter-two{
-
     background:#f8faf9;
-
 }
-
 .solutions-grid{
-
     display:grid;
-
     grid-template-columns:repeat(3, 1fr);
-
     gap:70px;
-
     max-width:1500px;
-
     margin:70px auto 0;
-
 }
-
 .solution{
-
     width:340px;
-
     background:#fff;
-
     border-radius:18px;
-
     padding:40px;
-
     box-shadow:0 10px 30px rgba(0,0,0,.06);
-
+    display:flex;
+    flex-direction:column;
 }
-
 .solution:hover{
-
     transform:translateY(-8px);
-
     box-shadow:0 28px 55px rgba(0,0,0,.08);
-
 }
-
 .solution-line{
-
     width:70px;
-
     height:4px;
-
     background:var(--green);
-
     border-radius:50px;
-
     margin-bottom:28px;
-
 }
-
 .solution h3{
-
     font-size:2rem;
-
-
     color:var(--green-dark);
-
     margin-bottom:22px;
-
     line-height:1.25;
-
 }
-
 .solution p{
-
     color:var(--text);
-
     font-size:1.05rem;
-
     margin-bottom:28px;
-
     max-width:850px;
-
 }
-
 .solution a{
-
     color:var(--green);
-
     font-weight:700;
-
     display:inline-flex;
-
     align-items:center;
-
     gap:8px;
-
     transition:.3s;
-
+    margin-top:auto;
 }
-
 .solution a:hover{
-
     transform:translateX(8px);
-
 }
-
-
 /*----------------------------------------------------
 
 Transition into Knowledge Centre
