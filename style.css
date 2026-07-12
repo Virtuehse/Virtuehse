@@ -452,6 +452,8 @@ footer h4{
 }
 footer ul{
     list-style:none;
+    padding:0;
+    text-align:left;
 }
 footer li{
     margin-bottom:8px;
