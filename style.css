@@ -997,7 +997,7 @@ HERO
 ====================================================*/
 .knowledge-hero{
     background:#ffffff;
-    padding:180px 0 120px;
+    padding:180px 0 50px;
     text-align:center;
 }
 .knowledge-hero h1{
@@ -1018,7 +1018,7 @@ KNOWLEDGE CHAPTERS
 ====================================================*/
 .knowledge-section.chapter-one{
     background:#f7f8f7;
-    padding:90px 0;
+    padding:50px 0;
 }
 .knowledge-section.chapter-three{
     background:#ffffff;
