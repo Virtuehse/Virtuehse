@@ -1026,7 +1026,7 @@ KNOWLEDGE CHAPTERS
 }
 .knowledge-section.chapter-two{
     background:#f4f8f6;
-    padding:120px 0;
+    padding:90px 0;
 }
 .chapter-header{
     text-align:center;
@@ -1323,5 +1323,330 @@ THANK YOU PAGE
     justify-content:center;
     white-space:nowrap;
 }
+
+/*====================================================
+VIRTUE HSE | SOP & DOCUMENT SUITES
+Add this section to the bottom of style.css
+====================================================*/
+
+.sop-hero{
+    background:#ffffff;
+    padding:180px 0 70px;
+    text-align:center;
+}
+
+.sop-hero h1{
+    max-width:1100px;
+    margin:20px auto 30px;
+    font-size:4.2rem;
+    line-height:1.08;
+    color:var(--green-dark);
+}
+
+.sop-hero .hero-lead{
+    max-width:800px;
+    margin:0 auto;
+    font-size:1.15rem;
+    line-height:1.9;
+    color:var(--text);
+}
+
+.sop-intro{
+    background:#f7f8f7;
+    padding:100px 0;
+}
+
+.sop-intro-grid{
+    display:grid;
+    grid-template-columns:42% 58%;
+    gap:90px;
+    align-items:start;
+}
+
+.sop-intro-heading h2{
+    font-size:3rem;
+    line-height:1.15;
+    color:var(--green-dark);
+    margin-top:18px;
+}
+
+.sop-intro-content p{
+    font-size:1.08rem;
+    line-height:1.9;
+    color:var(--text);
+    margin-bottom:25px;
+}
+
+.sop-intro-content p:last-child{
+    margin-bottom:0;
+}
+
+.sop-catalogue{
+    background:#ffffff;
+    padding:100px 0;
+}
+
+.sop-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.sop-card{
+    background:#f7f8f7;
+    border:1px solid #e6e9e8;
+    border-radius:20px;
+    padding:32px;
+    min-height:370px;
+    display:flex;
+    flex-direction:column;
+    transition:.35s;
+}
+
+.sop-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
+.sop-card.sop-available{
+    background:#ffffff;
+    box-shadow:0 10px 35px rgba(0,0,0,.07);
+    border-color:rgba(31,107,80,.14);
+}
+
+.sop-card-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:28px;
+}
+
+.sop-number{
+    font-size:1.5rem;
+    font-weight:800;
+    color:var(--green);
+    letter-spacing:.04em;
+}
+
+.sop-status{
+    display:inline-flex;
+    align-items:center;
+    padding:7px 13px;
+    border-radius:999px;
+    background:#edf6f2;
+    color:var(--green-dark);
+    font-size:.72rem;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+.sop-card:not(.sop-available) .sop-status{
+    background:#eef0ef;
+    color:#6c7772;
+}
+
+.sop-card h3{
+    color:var(--green-dark);
+    font-size:1.7rem;
+    line-height:1.25;
+    margin-bottom:18px;
+}
+
+.sop-card p{
+    color:var(--text);
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.sop-card-footer{
+    margin-top:auto;
+    padding-top:22px;
+    border-top:1px solid rgba(0,0,0,.08);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15px;
+}
+
+.sop-card-footer > span:first-child{
+    color:var(--green-dark);
+    font-size:.82rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.sop-card-footer .btn{
+    padding:12px 20px;
+    font-size:.9rem;
+}
+
+.sop-coming{
+    color:#7a8580;
+    font-size:.85rem;
+    font-weight:600;
+    text-align:right;
+}
+
+.sop-principles{
+    background:#f4f8f6;
+    padding:100px 0;
+}
+
+.sop-principles-panel{
+    display:grid;
+    grid-template-columns:minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap:60px;
+    background:#ffffff;
+    border-radius:24px;
+    padding:55px;
+    box-shadow:0 15px 45px rgba(0,0,0,.06);
+}
+
+.sop-principles-panel h2{
+    color:var(--green-dark);
+    font-size:2.7rem;
+    line-height:1.2;
+    margin-top:18px;
+}
+
+.sop-principles-content{
+    min-width:0;
+}
+
+.sop-principles-content p{
+    color:var(--text);
+    font-size:1.05rem;
+    line-height:1.9;
+    margin-bottom:25px;
+}
+
+.sop-principles-content p:last-child{
+    margin-bottom:0;
+}
+
+.sop-etsy{
+    background:#ffffff;
+    padding:100px 0;
+}
+
+.sop-etsy-card{
+    max-width:900px;
+    margin:auto;
+    padding:60px;
+    text-align:center;
+    background:#173c30;
+    border-radius:24px;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+}
+
+.sop-etsy-card .page-tag{
+    color:#9ed7bd;
+}
+
+.sop-etsy-card h2{
+    color:#ffffff;
+    font-size:3rem;
+    line-height:1.2;
+    margin:20px 0 25px;
+}
+
+.sop-etsy-card > p:not(.page-tag):not(.sop-note){
+    max-width:720px;
+    margin:0 auto 35px;
+    color:#dbe8e1;
+    font-size:1.1rem;
+    line-height:1.9;
+}
+
+.sop-etsy-card .btn-primary{
+    background:#ffffff;
+    color:var(--green-dark);
+}
+
+.sop-etsy-card .btn-primary:hover{
+    background:#edf6f2;
+    color:var(--green-dark);
+}
+
+.sop-note{
+    margin:30px 0 0;
+    color:#9fb6ac;
+    font-size:.9rem;
+}
+
+@media(max-width:1000px){
+    .sop-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .sop-intro-grid,
+    .sop-principles-panel{
+        grid-template-columns:1fr;
+        gap:45px;
+    }
+}
+
+@media(max-width:900px){
+    .sop-hero h1{
+        font-size:3rem;
+    }
+
+    .sop-intro,
+    .sop-catalogue,
+    .sop-principles,
+    .sop-etsy{
+        padding:80px 0;
+    }
+
+    .sop-principles-panel{
+        padding:40px 30px;
+    }
+
+    .sop-etsy-card{
+        padding:50px 30px;
+    }
+
+    .sop-etsy-card h2{
+        font-size:2.4rem;
+    }
+}
+
+@media(max-width:650px){
+    .sop-grid{
+        grid-template-columns:1fr;
+    }
+
+    .sop-hero{
+        padding:160px 0 60px;
+    }
+
+    .sop-hero h1{
+        font-size:2.5rem;
+    }
+
+    .sop-intro-heading h2{
+        font-size:2.4rem;
+    }
+
+    .sop-card{
+        min-height:0;
+    }
+
+    .sop-card-footer{
+        align-items:flex-start;
+        flex-direction:column;
+    }
+
+    .sop-card-footer .btn{
+        width:100%;
+    }
+
+    .sop-coming{
+        text-align:left;
+    }
+}
+
 
 
