@@ -1,3 +1,4 @@
 {
-    "vscode-autoGit.enabled": true
+    "vscode-autoGit.enabled": true,
+    "liveServer.settings.port": 5501
 }
